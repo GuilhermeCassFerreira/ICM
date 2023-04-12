@@ -1,0 +1,26 @@
+@import "../../../../assets/styles/config";
+
+.selected-users-list {
+    min-height: 20px;
+    border-radius: 0.3rem;
+    border: 2px solid #D9D9D970;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.2rem;
+
+    .selected-user {
+        display: flex;
+        align-items: center;
+        border: solid 1px #D9D9D970;
+        padding: 0.2rem 0.3rem;
+        border-radius: 0.3rem;
+        font-size: 0.8rem;
+        background-color: $regular-gray;
+        white-space: nowrap;
+    }
+
+    svg {
+        cursor: pointer;
+    }
+}
